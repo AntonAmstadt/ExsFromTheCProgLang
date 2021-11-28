@@ -3,6 +3,7 @@
  * digits (including an optional  0x or 0X) into its equivalent integer value.
  * The allowable digits are 0-9, a-f, and A-F.
  */
+// I also made the function return -1 if the string is not a valid hexadecimal number
 #include <math.h>
 #include <string.h>
 #include <stdio.h>
