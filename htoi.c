@@ -1,10 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Exercise 2-3: Write the function htoi(s), which converts a string of hexadecimal
+ * digits (including an optional  0x or 0X) into its equivalent integer value.
+ * The allowable digits are 0-9, a-f, and A-F.
  */
 #include <math.h>
 #include <string.h>
+#include <stdio.h>
 
 int htoi(char s[]){
     int valid = 1;
@@ -36,4 +37,10 @@ int htoi(char s[]){
         return total;
     else
         return -1;
+}
+
+int main() {
+    char s[] = { '0', 'x', '1', 'B', '\0'};
+    printf("htoi value: %d", htoi(s));
+    return 0;
 }
