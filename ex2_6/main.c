@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     // test here
     unsigned a = 0xF;
     unsigned b = 0;
-    printf("%d", setbits(a, 2, 2, b));
+    printf("%u", setbits(a, 2, 2, b));
     return (EXIT_SUCCESS);
 }
 
