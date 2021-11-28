@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// the squeeze is from the book
+// the squeeze function is from the book
 // squeeze: delete all c from s
 void squeeze(char s[], int c) {
     int i, j;
